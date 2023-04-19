@@ -20,5 +20,9 @@ button {
   color: #fff;
   padding: 1rem;
   text-transform: uppercase;
-  
+}
+
+button:focus {
+  background-color: rgb(196, 75, 75);
+  border: 2px solid #ccc;
 }
