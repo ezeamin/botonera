@@ -2,7 +2,6 @@ import { useRef } from 'react';
 
 import { MusicButtonProps } from '../../types';
 import { useNavigate } from 'react-router-dom';
-import { slugList } from '../constants/slugList';
 import { buttons } from '../constants/buttons';
 
 const MusicButton = (props: MusicButtonProps) => {
