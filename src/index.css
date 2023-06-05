@@ -12,7 +12,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+button:not(.share) {
   width: 100%;
   border-radius: 1rem;
   background-color: rgb(228, 90, 90);
@@ -20,9 +20,39 @@ button {
   color: #fff;
   padding: 1rem;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
-button:focus {
+button:focus:not(.share) {
   background-color: rgb(196, 75, 75);
   border: 2px solid #ccc;
+}
+
+.share {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: rgb(64, 124, 173);
+  border: 0;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#back-button {
+  border: 1px solid #ccc;
+  color: #ccc;
+  border-radius: 15px;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+#slug-screen {
+  height: 95vh !important; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
