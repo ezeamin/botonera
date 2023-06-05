@@ -29,9 +29,9 @@ const MusicButton = (props: MusicButtonProps) => {
     const finalLink = `${link}/audio/${slug}`;
 
     onClick();
-    navigator.clipboard.writeText(finalLink);
-
-    alert('Link copiado al portapapeles! :D');
+    navigator.clipboard.writeText(finalLink).then(() => {
+      alert('Link copiado al portapapeles! :D');
+    });
   };
 
   if (type && type === 'SHARE') {
