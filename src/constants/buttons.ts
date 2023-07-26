@@ -35,6 +35,11 @@ export const buttons = [
     slug: 'picasso',
   },
   {
+    text: 'Rifa',
+    audioSrc: '/audios/rifa.mp3',
+    slug: 'rifa',
+  },
+  {
     text: 'COMPARTIR AUDIO',
     audioSrc: '',
   },
