@@ -40,9 +40,14 @@ export const buttons = [
     slug: 'rifa',
   },
   {
-    text: 'heladera',
+    text: 'Heladera',
     audioSrc: '/audios/heladera.mp3',
     slug: 'heladera',
+  },
+  {
+    text: 'Hambre!',
+    audioSrc: '/audios/hambre.mp3',
+    slug: 'hambre',
   },
   {
     text: 'COMPARTIR AUDIO',
