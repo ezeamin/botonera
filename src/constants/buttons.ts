@@ -45,6 +45,11 @@ export const buttons = [
     slug: 'heladera',
   },
   {
+    text: 'Turco Veni',
+    audioSrc: '/audios/turco-veni.mp3',
+    slug: 'turco-veni',
+  },
+  {
     text: 'Hambre!',
     audioSrc: '/audios/hambre.mp3',
     slug: 'hambre',
