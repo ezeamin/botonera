@@ -55,6 +55,16 @@ export const buttons = [
     slug: 'hambre',
   },
   {
+    text: 'Jaldei!',
+    audioSrc: '/audios/jaldei.mp3',
+    slug: 'jaldei',
+  },
+  {
+    text: 'Mercado Libre...',
+    audioSrc: '/audios/mercadolibre.mp3',
+    slug: 'mercadolibre',
+  },
+  {
     text: 'COMPARTIR AUDIO',
     audioSrc: '',
   },
