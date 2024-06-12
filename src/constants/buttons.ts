@@ -65,6 +65,11 @@ export const buttons = [
     slug: 'mercadolibre',
   },
   {
+    text: 'Gordo Garca',
+    audioSrc: '/audios/gordo-garca.mp3',
+    slug: 'gordo-garca',
+  },
+  {
     text: 'COMPARTIR AUDIO',
     audioSrc: '',
   },
